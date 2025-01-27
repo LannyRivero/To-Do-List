@@ -1,16 +1,10 @@
-import { useState } from 'react'
+import { useState } from "react";
 
-import './App.css'
-import List from './componet/ToDoList'
+import "./App.css";
+import List from "./componet/ToDoList";
 
 function App() {
-  
-
-  return (
-    <>
-      <List />
-    </>
-  )
+  return <List />;
 }
 
-export default App
+export default App;
